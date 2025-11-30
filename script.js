@@ -4,7 +4,7 @@ let editingIndex = null;
 
 // 10 HOSPITALS - YOUR PHOTOS ADDED
 const hospitals = [
-    { name: "St. Luke’s Medical Center - Global City", location: "Taguig City", contact: "+63 2 8789 7700", photo: "lukesQ.webp" },
+    { name: "St. Luke’s Medical Center - Global City", location: "Taguig City", contact: "+63 2 8789 7700", photo: "LukesQ.webp" },
     { name: "St. Luke’s Medical Center - Quezon City", location: "Quezon City", contact: "+63 2 8723 0101", photo: "LUKESGLOBAL.jpg" },
     { name: "Makati Medical Center", location: "Makati City", contact: "+63 2 8888 8999", photo: "makatimedcen.webp" },
     { name: "The Medical City", location: "Pasig City", contact: "+63 2 8988 1000", photo: "THEMEDICALCITYPASIG.jpg" },
@@ -177,4 +177,5 @@ if (user) {
     showSection('hospitals');
     document.getElementById('appointments-tab').style.display = 'block';
     renderHospitals();
+
 }
