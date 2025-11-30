@@ -2,7 +2,7 @@ let user = localStorage.getItem('user');
 let selectedHospital = null;
 let editingIndex = null;
 
-// 10 HOSPITALS - YOUR PHOTOS ADDED
+
 const hospitals = [
     { name: "St. Luke’s Medical Center - Global City", location: "Taguig City", contact: "+63 2 8789 7700", photo: "LukesQ.webp" },
     { name: "St. Luke’s Medical Center - Quezon City", location: "Quezon City", contact: "+63 2 8723 0101", photo: "LUKESGLOBAL.jpg" },
@@ -179,3 +179,4 @@ if (user) {
     renderHospitals();
 
 }
+
